@@ -1,5 +1,16 @@
 def reverse_string(str)
-  # type your code in here
+  # create new array
+  newArr = []
+  # initialize index
+  i = 0
+  # loop over string
+   while str.length > i do
+    # add current element at .length minus 1, to a new array
+    newArr[str.length - i] =str[i]
+    i += 1
+  end
+# join array on an empty space
+  newArr.join('')
 end
 
 if __FILE__ == $PROGRAM_NAME
@@ -16,3 +27,9 @@ end
 
 # Please add your pseudocode to this file
 # And a written explanation of your solution
+
+# create new array
+# initialize index
+# loop over string
+# add current element at .length minus 1, to a new array
+# join array on an empty space
