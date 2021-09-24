@@ -33,5 +33,13 @@ end
 # join array on an empty space
 
 # And a written explanation of your solution
-# the method creates a new array that will be joined and returned, it takes a string and then uses a while loop to loop over the string, on the first loop cycle, the current element is assigned to the last position in the new array, this is done by taking the length and subtracting the index, the index will increment each loop cycle. As the loop continues, this will provide the correct position in the new array and the index of the string will be assigned to the position in the new array, which will create the reversed array.
+
+# the method creates a new array that will be joined and returned, it takes a 
+# string and then uses a while loop to loop over the string, on the first loop cycle,
+# the current element is assigned to the last position in the new array, this is done 
+# by taking the length and subtracting the index, the index will increment each loop 
+# cycle. As the loop continues, this will provide the correct position in the new 
+# array and the index of the string will be assigned to the position in the new 
+# array, which will create the reversed array.
+
 
